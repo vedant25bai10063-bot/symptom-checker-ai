@@ -17,7 +17,7 @@ disease_col = "prognosis"
 ### Symptoms ###
 symptom = [col for col in data.columns if col != disease_col]
 
-print("=========  SYMPTOM CHECKER  =========\n")
+print("[---------  SYMPTOM CHECKER  ---------]\n")
 
 ## Patient Details ##
 name = input("Enter patient's name: ")
@@ -91,7 +91,7 @@ for i in range(5):
 
 print("\n")
 
-print("\n=========  RESULT  =========")
+print("\n[----------  RESULT  ---------]")
 print("Name: " + name)
 print("Age: " + age)
 print("Sex: " + sex)
